@@ -15,7 +15,7 @@ const Project = () => {
       text: "loremsdcs dds  ewsd sdbsvv guweoh aaoye ggh hry ydhd fhyr y hdfdkd iugd fuigdj hvboavhj vvgvv v vg d t sdggdgsd sdvgsyy svvy fwuk duyd cug d gsdgv wegv",
       date: "May 2023",
       status: "done",
-      imageUrl: {roadmap1},
+      imageUrl: roadmap1,
       colorful: true,
     },
     {
@@ -24,7 +24,7 @@ const Project = () => {
       text: "loremsdcs dds  ewsd sdbsvv guweoh aaoye ggh hry ydhd fhyr y hdfdkd iugd fuigdj hvboavhj vvgvv v vg d t sdggdgsd sdvgsyy svvy fwuk duyd cug d gsdgv wegv",
       date: "May 2023",
       status: "done",
-      imageUrl: {roadmap2},
+      imageUrl: roadmap2,
       colorful: false,
     },
     {
@@ -33,7 +33,7 @@ const Project = () => {
       text: "loremsdcs dds  ewsd sdbsvv guweoh aaoye ggh hry ydhd fhyr y hdfdkd iugd fuigdj hvboavhj vvgvv v vg d t sdggdgsd sdvgsyy svvy fwuk duyd cug d gsdgv wegv",
       date: "May 2023",
       status: "process",
-      imageUrl: {roadmap3},
+      imageUrl: roadmap3,
       colorful: false,
     },
     {
@@ -42,7 +42,7 @@ const Project = () => {
       text: "loremsdcs dds  ewsd sdbsvv guweoh aaoye ggh hry ydhd fhyr y hdfdkd iugd fuigdj hvboavhj vvgvv v vg d t sdggdgsd sdvgsyy svvy fwuk duyd cug d gsdgv wegv",
       date: "May 2023",
       status: "done",
-      imageUrl: {roadmap1},
+      imageUrl: roadmap1,
       colorful: false,
     },
   ];
