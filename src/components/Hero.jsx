@@ -1,11 +1,12 @@
-import React, { useRef } from "react";
-import Section from "./Section";
+import { curve, heroBackground, robot } from "../assets";
 import Button from "./Button";
+import Section from "./Section";
 import { BackgroundCircles, BottomLine, Gradient } from "./design/Hero";
+
 const Hero = () => {
-  // const parallaxRef = useRef(null);
   return (
-    <Section id={'home'}
+    <Section
+      id={"home"}
       className={"pt-[12rem] -mt-[5.25rem] lg:mt-0"}
       customPadding
       crosses={"crosses"}
@@ -17,14 +18,17 @@ const Hero = () => {
             <span className=" inline-block relative ">
               Sayan Das
               <img
-                className=" absolute top-full left-0 w-full"
-                src="/src/assets/hero/curve.png"
+                src={curve}
+                className="absolute top-full left-0 w-full xl:-mt-2"
+                width={624}
+                height={28}
+                alt="Curve"
               />{" "}
             </span>{" "}
           </h1>
           <p className=" mt-5 body-1 max-w-3xl mx-auto text-n-2 lg:mb-8 mb-6">Unlock the power of modern websites with me for innovative, high-performance web development projects.</p>
           <Button
-            href={"./pricing"}
+            href={"/pricing"}
             white
             className={"font-code tracking-wide font-bold text-xs"}
           >
@@ -37,24 +41,20 @@ const Hero = () => {
               <div className="h-[1.4rem] bg-n-10 rounded-t-[0.9rem]" />
               <div className=" aspect-[33/40] rounded-b-[0.9rem] overflow-hidden md:aspect-[688/490] lg:aspect-[1024/490]">
                 <img
-                  src="/src/assets/hero/robot.jpg"
-                  className=" w-full scale-[1.7] rounded-b-[0.9rem] translate-y-[8%] md:scale-[1] md:-translate-y-[10%]  lg:-translate-y-[23%]"
-                  alt="ai"
+                  src={robot}
+                  className="w-full scale-[1.7] translate-y-[8%] md:scale-[1] md:-translate-y-[10%] lg:-translate-y-[23%]"
                   width={1024}
                   height={490}
+                  alt="AI"
                 />
-                {/* <ScrollParallax isAbsolutelyPositioned>
-                  <ul>
-
-                  </ul>
-                </ScrollParallax> */}
+                
               </div>
             </div>
             <Gradient />
           </div>
           <div className="bg-blend-multiply -z-3 absolute -top-[55%] left-1/2 w-[234%] md:-top-[46%] md:w-[138%] lg:-top-[102%] -translate-x-1/2">
             <img
-              src="/src/assets/hero/hero-background.jpg"
+              src={heroBackground}
               className=" w-full rounded-b-[0.9rem]  bg-blend-multiply"
               alt="robot"
               width={1440}

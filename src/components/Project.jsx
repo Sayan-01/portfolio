@@ -3,7 +3,8 @@ import Section from "./Section";
 import Text from "./Text";
 import { Gradient } from "./design/Services";
 import Button from "./Button";
-import {BottomLine} from './design/Hero'
+import { check2, grid, loading1 } from "../assets";
+
 
 const Project = () => {
   const projects = [
@@ -63,9 +64,11 @@ const Project = () => {
                 <div className="relative p-8 bg-n-8 rounded-[2.47rem] overflow-hidden xl:p-15">
                   <div className=" absolute top-0 left-0 max-w-full">
                     <img
-                      src="src\assets\grid.png"
-                      className=" w-full"
-                      alt="gride"
+                      className="w-full"
+                      src={grid}
+                      width={550}
+                      height={550}
+                      alt="Grid"
                     />
                   </div>
                   <div className=" relative z-1">
@@ -76,7 +79,7 @@ const Project = () => {
                           className=" mr-2.5 "
                           width={16}
                           height={16}
-                          src={item.status === "done" ? "src/assets/check-02.svg" : "src/assets/loading-01.svg"}
+                          src={item.status === "done" ? check2 : loading1}
                           alt="status"
                         />
                         <div className=" tagline">{item.status}</div>

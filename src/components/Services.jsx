@@ -1,6 +1,8 @@
 import React from "react";
 import Section from "./Section";
 import { Gradient } from "./design/Services";
+import { service1, service2, service3, check, smallSphere, stars } from "../assets";
+
 
 const services = [
   { id: 0, title: "Web Development" },
@@ -8,7 +10,6 @@ const services = [
   { id: 2, title: "Making Scaleble Backend" },
   { id: 3, title: "Frontend Development" },
   { id: 4, title: "Adv Animeted Website" },
-  // { id: 5, title: "Web Development" },
 ];
 
 const Services = () => {
@@ -27,7 +28,7 @@ const Services = () => {
                 width={800}
                 height={730}
                 className=" w-full h-full object-cover md:object-right"
-                src={"src/assets/services/service-1.png"}
+                src={service1}
               />
             </div>
             <div className="relative z-2 max-w-[17rem] ml-auto">
@@ -40,7 +41,7 @@ const Services = () => {
                       key={item.id}
                       className="mb-2 py-3 flex items-center gap-4 border-t border-n-5"
                     >
-                      <img src="src/assets/check.svg" />
+                      <img src={check} />
                       <h6>{item.title}</h6>
                     </li>
                   ))}
@@ -56,7 +57,7 @@ const Services = () => {
         <div className=" relative container z-3">
           <div className="hidden -mt-10 relative justify-center mb-[7.6rem] lg:flex">
             <img
-              src="src\assets\4-small.png"
+              src={smallSphere}
               alt="ball"
               className="relative top-3 z-100"
               width={255}
@@ -67,7 +68,7 @@ const Services = () => {
                 className="w-full"
                 width={950}
                 height={400}
-                src="\src\assets\pricing\stars.svg"
+                src={stars}
                 alt="stars"
               />
             </div>

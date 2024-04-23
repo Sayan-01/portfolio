@@ -3,7 +3,7 @@ import { disablePageScroll, enablePageScroll } from "scroll-lock";
 
 import Button from "./Button";
 import MenuSvg from "../assets/svg/MenuSvg";
-import { HambugerMenu } from "./design/Header";
+// import { HambugerMenu } from "./design/Header";
 import { useState } from "react";
 
 const Header = () => {
@@ -11,7 +11,7 @@ const Header = () => {
     { title: "home", url: "#home" },
     { title: "services", url: "#services" },
     { title: "skills", url: "#skills" },
-    { title: "projects", url: "#projects" }, // Corrected the url from "project" to "projects"
+    { title: "projects", url: "#projects" }, 
     { title: "about me", url: "#about-me" },
   ];
   const pathname = useLocation();
@@ -60,7 +60,7 @@ const Header = () => {
             ))}
           </div>
 
-          <HambugerMenu />
+          {/* <HambugerMenu /> */}
         </nav>
 
         <a

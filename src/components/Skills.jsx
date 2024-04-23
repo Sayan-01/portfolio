@@ -2,8 +2,8 @@ import React from "react";
 import Section from "./Section";
 import Button from "./Button";
 import Program from "./Program";
-import { RightCurve, LeftCurve } from "./design/Collaboration";
-import { BottomLine} from "./design/Hero";
+import { LeftCurve } from "./design/Collaboration";
+import { check } from "../assets";
 
 
 const Skills = () => {
@@ -45,7 +45,7 @@ const Skills = () => {
                 key={item.id}
                 className="mb-2 py-3 flex items-center gap-4"
               >
-                <img src="src/assets/check.svg" />
+                <img src={check} />
                 <h6>{item.title}</h6>
               </li>
             ))}
