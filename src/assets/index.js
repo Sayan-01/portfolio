@@ -41,6 +41,8 @@ import instagram from "./socials/instagram.svg";
 import telegram from "./socials/telegram.svg";
 import twitter from "./socials/twitter.svg";
 
+import skillRing from './skillRing.png'
+
 export {
   brainwave,
   check,
@@ -49,7 +51,7 @@ export {
 
   lines,
   stars, 
-  
+
   gradient,
   smallSphere,
   grid,
@@ -77,4 +79,5 @@ export {
   instagram,
   telegram,
   twitter,
+  skillRing
 };

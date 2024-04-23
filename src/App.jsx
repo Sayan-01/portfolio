@@ -4,9 +4,9 @@ import Header from "./components/Header.jsx";
 import Hero from "./components/Hero.jsx";
 import Services from './components/Services.jsx'
 import Skills from "./components/Skills.jsx";
-// import Project from "./components/Project.jsx";
-// import Contact from "./components/Contact.jsx";
-// import Footer from "./components/Footer.jsx";
+import Project from "./components/Project.jsx";
+import Contact from "./components/Contact.jsx";
+import Footer from "./components/Footer.jsx";
 const App = () => {
   return (
     <>
@@ -15,9 +15,9 @@ const App = () => {
         <Hero />
         <Skills />
         <Services />
-        {/*<Project/>
+        <Project />
         <Contact/>
-        <Footer/> */}
+        <Footer/>
       </div>
       <ButtonGradient />
     </>

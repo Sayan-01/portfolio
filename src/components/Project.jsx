@@ -82,7 +82,7 @@ const Project = () => {
                           src={item.status === "done" ? check2 : loading1}
                           alt="status"
                         />
-                        <div className=" tagline">{item.status}</div>
+                        <div className=" tagline">{status}</div>
                       </div>
                     </div>
                     <div className="mb-10 -my-10 -mx-15">

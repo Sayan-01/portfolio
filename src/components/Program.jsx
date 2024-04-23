@@ -1,4 +1,5 @@
 import React from "react";
+import { skillRing } from "../assets";
 const program = [
   { title: "html" , url: ''},
   { title: "css" },
@@ -22,12 +23,10 @@ const program = [
 ];
 const Program = ({className}) => {
   return (
-    
-      <img
-        className={className}
-        src="src\assets\Screenshot 2024-04-20 224113.png"
-      />
-    
+    <img
+      className={className}
+      src={skillRing}
+    />
   );
 };
 
