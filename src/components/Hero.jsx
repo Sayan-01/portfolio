@@ -18,7 +18,7 @@ const Hero = () => {
               Sayan Das
               <img
                 className=" absolute top-full left-0 w-full"
-                src="./src/assets/hero/curve.png"
+                src="/src/assets/hero/curve.png"
               />{" "}
             </span>{" "}
           </h1>
