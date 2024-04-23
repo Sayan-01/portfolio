@@ -4,6 +4,7 @@ import Text from "./Text";
 import { Gradient } from "./design/Services";
 import Button from "./Button";
 import { check2, grid, loading1 } from "../assets";
+import { roadmap1, roadmap2, roadmap3 } from "../assets";
 
 
 const Project = () => {
@@ -14,7 +15,7 @@ const Project = () => {
       text: "loremsdcs dds  ewsd sdbsvv guweoh aaoye ggh hry ydhd fhyr y hdfdkd iugd fuigdj hvboavhj vvgvv v vg d t sdggdgsd sdvgsyy svvy fwuk duyd cug d gsdgv wegv",
       date: "May 2023",
       status: "done",
-      imageUrl: "src/assets/roadmap/image-2.png",
+      imageUrl: {roadmap1},
       colorful: true,
     },
     {
@@ -23,7 +24,7 @@ const Project = () => {
       text: "loremsdcs dds  ewsd sdbsvv guweoh aaoye ggh hry ydhd fhyr y hdfdkd iugd fuigdj hvboavhj vvgvv v vg d t sdggdgsd sdvgsyy svvy fwuk duyd cug d gsdgv wegv",
       date: "May 2023",
       status: "done",
-      imageUrl: "src/assets/roadmap/image-2.png",
+      imageUrl: {roadmap2},
       colorful: false,
     },
     {
@@ -32,7 +33,7 @@ const Project = () => {
       text: "loremsdcs dds  ewsd sdbsvv guweoh aaoye ggh hry ydhd fhyr y hdfdkd iugd fuigdj hvboavhj vvgvv v vg d t sdggdgsd sdvgsyy svvy fwuk duyd cug d gsdgv wegv",
       date: "May 2023",
       status: "process",
-      imageUrl: "src/assets/roadmap/image-2.png",
+      imageUrl: {roadmap3},
       colorful: false,
     },
     {
@@ -41,7 +42,7 @@ const Project = () => {
       text: "loremsdcs dds  ewsd sdbsvv guweoh aaoye ggh hry ydhd fhyr y hdfdkd iugd fuigdj hvboavhj vvgvv v vg d t sdggdgsd sdvgsyy svvy fwuk duyd cug d gsdgv wegv",
       date: "May 2023",
       status: "done",
-      imageUrl: "src/assets/roadmap/image-2.png",
+      imageUrl: {roadmap1},
       colorful: false,
     },
   ];
