@@ -1,7 +1,6 @@
 import React from "react";
 import Button from "./components/Button";
 import ButtonGradient from "./assets/svg/ButtonGradient.jsx"
-import Header from "./components/Header.jsx";
 import Hero from "./components/Hero.jsx";
 import Services from './components/Services.jsx'
 import Skills from "./components/Skills.jsx";
@@ -12,7 +11,7 @@ const App = () => {
   return (
     <>
       <div className="pt-[4.75rem] lg:pt-[5.25rem]">
-        <Header />
+        
         <Hero />
         <Skills />
         <Services/>
