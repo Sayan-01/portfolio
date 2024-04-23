@@ -41,12 +41,7 @@ const Header = () => {
           className="block w-[12rem] xl:mr-8"
           href="#hero"
         >
-          <img
-            src="src\assets\brainwave.svg"
-            width={190}
-            height={40}
-            alt="Brainwave"
-          />
+          <h1 className="font font-extrabold md:text-5xl text-4xl pl-1">SAYAN</h1>
         </a>
 
         <nav className={`${openNavigation ? "flex" : "hidden"} fixed top-[5rem] left-0 right-0 bottom-0 bg-n-8 lg:static lg:flex lg:mx-auto lg:bg-transparent`}>
