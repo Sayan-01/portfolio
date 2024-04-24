@@ -23,10 +23,12 @@ const program = [
 ];
 const Program = ({className}) => {
   return (
-    <img
-      className={className}
-      src={skillRing}
-    />
+    <div className=" overflow-hidden rounded-full p-4 bg-[#0E0C15] sh">
+      <img
+        className={className}
+        src={skillRing}
+      />
+    </div>
   );
 };
 

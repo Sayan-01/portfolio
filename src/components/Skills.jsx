@@ -57,9 +57,9 @@ const Skills = () => {
         <div className="lg:ml-auto xl:w-[38rem] mt-4">
           {/* / */}
           <div className="  relative left-1/2 flex md:w-[32rem] w-[21rem] aspect-square rounded-full -translate-x-1/2 scale:75 md:scale-100 -top-10 md:top-0  md:mt-10 lg:mt-6 mt-20">
-            <div className=" overflow-hidden rounded-full p-4 bg-[#0E0C15]">
+            
               <Program className={""} />
-            </div>
+            
 
             <LeftCurve />
             {/* <RightCurve /> */}
