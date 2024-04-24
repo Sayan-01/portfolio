@@ -14,7 +14,7 @@ export const RightCurve = () => {
 
 export const LeftCurve = (className) => {
   return (
-    <div className={`${className} hidden absolute top-1/2 right-full w-[32.625rem]  mt-8 mr-10 pointer-events-none xl:block`}>
+    <div className={`${className} hidden absolute top-1/2 right-full w-[32.625rem]  -mt-5 mr-10 pointer-events-none xl:block`}>
       <img
         src="src\assets\collaboration\curve-1.svg"
         width={522}

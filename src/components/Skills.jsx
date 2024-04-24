@@ -33,7 +33,8 @@ const Skills = () => {
     { title: "Drawing", id: 2 },
   ];
   return (
-    <Section id={"skills"}
+    <Section
+      id={"skills"}
       customPadding={"py-14 lg:py-16 xl:py-[8rem] -mb-4"}
     >
       <div className="container lg:flex ">
@@ -55,8 +56,8 @@ const Skills = () => {
         </div>
         <div className="lg:ml-auto xl:w-[38rem] mt-4">
           {/* / */}
-          <div className="relative left-1/2 flex md:w-[32rem] w-[21rem] aspect-square rounded-full -translate-x-1/2 scale:75 md:scale-100 -top-10  md:mt-10 lg:mt-6 mt-20">
-            <div className=" overflow-hidden rounded-full">
+          <div className="  relative left-1/2 flex md:w-[32rem] w-[21rem] aspect-square rounded-full -translate-x-1/2 scale:75 md:scale-100 -top-10 md:top-0  md:mt-10 lg:mt-6 mt-20">
+            <div className=" overflow-hidden rounded-full p-4 bg-[#0E0C15]">
               <Program className={""} />
             </div>
 
@@ -66,7 +67,6 @@ const Skills = () => {
           {/* / */}
         </div>
       </div>
-      
     </Section>
   );
 };

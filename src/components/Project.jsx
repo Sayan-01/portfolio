@@ -75,9 +75,9 @@ const Project = () => {
                   <div className=" relative z-1">
                     <div className="flex items-center justify-between max-w-[27rem] mb-8 md:mb-20">
                       <Text>{item.date}</Text>
-                      <div className=" flex items-center px-4 py-1 bg-n-1 rounded text-n-8">
+                      <div className=" flex items-center px-2 py-1 bg-n-1 rounded text-n-8">
                         <img
-                          className=" mr-2.5 "
+                          className=" mr-1.5 "
                           width={16}
                           height={16}
                           src={item.status === "done" ? check2 : loading1}
