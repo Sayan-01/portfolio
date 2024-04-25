@@ -3,7 +3,7 @@ import Section from "./Section";
 import Text from "./Text";
 import { Gradient } from "./design/Services";
 import Button from "./Button";
-import { check2, grid, loading1 } from "../assets";
+import { airbnb1, check2, grid, loading1 } from "../assets";
 import { roadmap1, roadmap2, roadmap3 } from "../assets";
 
 
@@ -11,17 +11,19 @@ const Project = () => {
   const projects = [
     {
       id: "0",
-      title: "Airbnb Clone",
-      text: "loremsdcs dds  ewsd sdbsvv guweoh aaoye ggh hry ydhd fhyr y hdfdkd iugd fuigdj hvboavhj vvgvv v vg d t sdggdgsd sdvgsyy svvy fwuk duyd cug d gsdgv wegv",
+      title: "Airbnb Clone Full Stack",
+      text: "This is a full stack Airbnb clone based on MERN stack. In this project user can create or delete his/her own listing, giving reviews, and use filter and search v of betterresult. Moreover, the webapp has the facility of Log in, Sign in and Logout. And complete CRUD operation can be done on the website.",
       date: "May 2023",
       status: "done",
-      imageUrl: roadmap1,
+      imageUrl: airbnb1,
       colorful: true,
+      github: "https://github/sayan-01",
+      link: "wanderland",
     },
     {
       id: "1",
-      title: "Airbnb Clone",
-      text: "loremsdcs dds  ewsd sdbsvv guweoh aaoye ggh hry ydhd fhyr y hdfdkd iugd fuigdj hvboavhj vvgvv v vg d t sdggdgsd sdvgsyy svvy fwuk duyd cug d gsdgv wegv",
+      title: "React Animated Webpage",
+      text: "I convert the Nike landing page into a animated mordern landing page. Here I used React Js and Framer as base framework and animation tool.On this webpage, when we click on any of the three shoes below, we can see that shoe is scaled with smooth rotation.",
       date: "May 2023",
       status: "done",
       imageUrl: roadmap2,
@@ -60,7 +62,7 @@ const Project = () => {
             return (
               <div
                 key={item.id}
-                className={` ${item.colorful ? " bg-conic-gradient" : " bg-n-6"} rounded-[2.5rem] md:flex  even:md:translate-y-[7rem] p-0.25`}
+                className={` ${item.colorful ? " bg-conic-gradient" : " bg-n-6"} rounded-[2.5rem] md:flex   even:md:translate-y-[7rem] p-0.25`}
               >
                 <div className="relative p-8 bg-n-8 rounded-[2.47rem] overflow-hidden xl:p-15">
                   <div className=" absolute top-0 left-0 max-w-full">
@@ -73,7 +75,7 @@ const Project = () => {
                     />
                   </div>
                   <div className=" relative z-1">
-                    <div className="flex items-center justify-between max-w-[27rem] mb-8 md:mb-20">
+                    <div className="flex items-center justify-between max-w-[27rem] ">
                       <Text>{item.date}</Text>
                       <div className=" flex items-center px-2 py-1 bg-n-1 rounded text-n-8">
                         <img
@@ -86,13 +88,29 @@ const Project = () => {
                         <div className=" tagline">{status}</div>
                       </div>
                     </div>
-                    <div className="mb-10 -my-10 -mx-15">
-                      <img
-                        src={item.imageUrl}
-                        alt="image"
-                        width={630}
-                        height={420}
-                      />
+                    <div className="flex items-center justify-center relative top-0">
+                      <div className=" overflow-hidden w-full md:my-5 my-7 rounded-2xl bg-slate-300 aspect-[16/10.5]">
+                        <img
+                          src={item.imageUrl}
+                          alt="airbnb-1"
+                        />
+                      </div>
+                    </div>
+                    <div className="md:mb-5 mb-4 mt-2 md:mt-4">
+                      <a
+                        className=" tagline py-1 px-2 bg-n-1 rounded text-n-8 mr-4"
+                        href={item.github}
+                      >
+                        Github
+                      </a>
+                      {item.link && (
+                        <a
+                          className=" tagline py-1 px-2 bg-n-1 rounded text-n-8"
+                          href={item.link}
+                        >
+                          Website Url
+                        </a>
+                      )}
                     </div>
                     <h4 className="h4 mb-4">{item.title}</h4>
                     <p className=" body-2 text-n-4">{item.text}</p>

@@ -10,6 +10,8 @@ const services = [
   { id: 2, title: "Making Scaleble Backend" },
   { id: 3, title: "Frontend Development" },
   { id: 4, title: "Adv Animeted Website" },
+  { id: 4, title: "Fully Responsive Website" },
+  
 ];
 
 const Services = () => {
@@ -33,7 +35,7 @@ const Services = () => {
             </div>
             <div className="relative z-2 max-w-[17rem] ml-auto">
               {/* / */}
-              <div className=" max-w-[30rem]">
+              <div className=" max-w-[30rem] mt-14">
                 <h4 className="h4 mb-4 md:mb-0">Be Smart</h4> <p className="body-2 text-n-1/70 lg:w-[22rem]  my-5">With smart automation and top-notch Websites, it's the perfec.</p>
                 <ul className=" max-w-[22rem] mb-10 md:mb-14">
                   {services.map((item) => (
