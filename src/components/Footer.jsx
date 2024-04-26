@@ -1,37 +1,44 @@
 import React from "react";
 import Section from './Section'
-import { twitter, discordBlack, instagram, telegram, facebook } from "../assets";
+import { twitter, discordBlack, instagram, telegram, facebook, linkedin, github } from "../assets";
 const Footer = () => {
   const socials = [
+    // {
+    //   id: "0",
+    //   title: "Discord",
+    //   iconUrl: discordBlack,
+    //   url: "#",
+    // },
+    // {
+    //   id: "1",
+    //   title: "Twitter",
+    //   iconUrl: twitter,
+    //   url: "#",
+    // },
+
     {
       id: "0",
-      title: "Discord",
-      iconUrl: discordBlack,
-      url: "#",
+      title: "LinkedIn",
+      iconUrl: linkedin,
+      url: "https://www.linkedin.com/in/sayandas-s1",
     },
     {
       id: "1",
-      title: "Twitter",
-      iconUrl: twitter,
-      url: "#",
+      title: "Instagram",
+      iconUrl: instagram,
+      url: "https://www.instagram.com/sayan_200462/",
     },
     {
       id: "2",
-      title: "Instagram",
-      iconUrl: instagram,
-      url: "#",
+      title: "Github",
+      iconUrl: github,
+      url: "https://github.com/Sayan-01",
     },
     {
       id: "3",
-      title: "Telegram",
-      iconUrl: telegram,
-      url: "#",
-    },
-    {
-      id: "4",
       title: "Facebook",
       iconUrl: facebook,
-      url: "#",
+      url: "https://www.facebook.com/profile.php?id=100035727935505",
     },
   ];
 
@@ -40,7 +47,7 @@ const Footer = () => {
       crosses
       className={"!px-0  !py-10 "}
     >
-      <div className="container flex sm:justify-between justify-center items-center gap-10 max-sm:flex-col">
+      <div className="container flex sm:justify-between justify-center items-center gap-6 max-sm:flex-col">
         <p className=" caption text-n-4 lg:block">© {new Date().getFullYear()}. All rights</p>
         <ul className="flex gap-5 flex-wrap">
           {socials.map((item) => (
@@ -52,8 +59,8 @@ const Footer = () => {
             >
               <img
                 src={item.iconUrl}
-                width={16}
-                height={16}
+                width={20}
+                height={20}
                 alt={item.title}
               />
             </a>

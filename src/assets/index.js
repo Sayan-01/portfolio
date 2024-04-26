@@ -39,10 +39,12 @@ import stars from "./pricing/stars.svg";
 
 
 import discordBlack from "./socials/discord.svg";
-import facebook from "./socials/facebook.svg";
-import instagram from "./socials/instagram.svg";
+import facebook from "./socials/facebook.png";
+import instagram from "./socials/instagram.png";
 import telegram from "./socials/telegram.svg";
 import twitter from "./socials/twitter.svg";
+import linkedin from './socials/linkedin.png';
+import github from './socials/github1.png';
 
 import skillRing from './skillRing.png'
 
@@ -85,5 +87,7 @@ export {
   instagram,
   telegram,
   twitter,
+  linkedin,
+  github,
   skillRing
 };

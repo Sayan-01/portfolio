@@ -18,7 +18,7 @@ const Project = () => {
       imageUrl: airbnb1,
       colorful: true,
       github: "https://github.com/Sayan-01/wanderland",
-      link: "wanderland",
+      link: "https://wanderland-sayan.onrender.com/",
     },
     {
       id: "1",
@@ -97,7 +97,7 @@ const Project = () => {
                         />
                       </div>
                     </div>
-                    <div className="md:mb-5 mb-4 mt-2 md:mt-4">
+                    <div className="md:mb-5 mb-4 mt-0 md:mt-4">
                       <a
                         className=" tagline py-1 px-2 bg-n-1 rounded text-n-8 mr-4"
                         href={item.github}
@@ -114,7 +114,9 @@ const Project = () => {
                       )}
                     </div>
                     <h4 className="h4 mb-4">{item.title}</h4>
-                    <p className=" body-2 text-n-4">{item.text}</p>
+                    <div className="">
+                      <p className=" body-2 text-n-4">{item.text}</p>
+                    </div>
                   </div>
                 </div>
               </div>
