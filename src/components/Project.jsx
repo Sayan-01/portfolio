@@ -90,7 +90,7 @@ const Project = () => {
                       </div>
                     </div>
                     <div className="flex items-center justify-center relative top-0">
-                      <div className=" overflow-hidden w-full md:my-5 my-7 rounded-2xl bg-slate-300 aspect-[16/10.5]">
+                      <div className=" overflow-hidden w-full md:my-5 my-7 md:rounded-2xl rounded-xl bg-slate-300 aspect-[16/10.5]">
                         <img
                           src={item.imageUrl}
                           alt="airbnb-1"
