@@ -3,7 +3,7 @@ import Section from "./Section";
 import Text from "./Text";
 import { Gradient } from "./design/Services";
 import Button from "./Button";
-import { airbnb1, check2, grid, loading1 } from "../assets";
+import { airbnb1, check2, grid, loading1, reactShoe } from "../assets";
 import { roadmap1, roadmap2, roadmap3 } from "../assets";
 
 
@@ -17,7 +17,7 @@ const Project = () => {
       status: "done",
       imageUrl: airbnb1,
       colorful: true,
-      github: "https://github/sayan-01",
+      github: "https://github.com/Sayan-01/wanderland",
       link: "wanderland",
     },
     {
@@ -26,8 +26,9 @@ const Project = () => {
       text: "I convert the Nike landing page into a animated mordern landing page. Here I used React Js and Framer as base framework and animation tool.On this webpage, when we click on any of the three shoes below, we can see that shoe is scaled with smooth rotation.",
       date: "May 2023",
       status: "done",
-      imageUrl: roadmap2,
+      imageUrl: reactShoe,
       colorful: false,
+      github: "https://github.com/Sayan-01",
     },
     {
       id: "2",
@@ -75,7 +76,7 @@ const Project = () => {
                     />
                   </div>
                   <div className=" relative z-1">
-                    <div className="flex items-center justify-between max-w-[27rem] ">
+                    <div className="flex items-center justify-between max-w-full ">
                       <Text>{item.date}</Text>
                       <div className=" flex items-center px-2 py-1 bg-n-1 rounded text-n-8">
                         <img

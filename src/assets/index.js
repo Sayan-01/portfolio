@@ -29,7 +29,9 @@ import roadmap1 from "./roadmap/image-1.png";
 import roadmap2 from "./roadmap/image-2.png";
 import roadmap3 from "./roadmap/image-3.png";
 import undone from "./roadmap/undone.svg";
+
 import airbnb1 from './projects/airbnb-1.png'
+import reactShoe from './projects/reactShoe.png'
 
 
 import lines from "./pricing/lines.svg";
@@ -51,6 +53,7 @@ export {
   loading1,
 
   airbnb1,
+  reactShoe,
 
   lines,
   stars, 
