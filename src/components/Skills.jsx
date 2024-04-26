@@ -31,6 +31,7 @@ const Skills = () => {
     { title: "Software engineering", id: 3 },
     { title: "Teaching", id: 1 },
     { title: "Drawing", id: 2 },
+    {title: 'Freelancing', id:3}
   ];
   return (
     <Section
