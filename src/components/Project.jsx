@@ -116,7 +116,7 @@ const Project = () => {
                       )}
                     </div>
                     <h4 className="h4 mb-4">{item.title}</h4>
-                    <div className="">
+                    <div className=" pr-3 md:overflow-visible overflow-scroll md:h-auto h-[139px]">
                       <p className=" cursor-pointer body-2 text-n-4">{item.text}</p>
                     </div>
                   </div>
