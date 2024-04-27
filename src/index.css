@@ -91,6 +91,10 @@ body::-webkit-scrollbar {
   display: none !important;
 }
 
+.para::-webkit-scrollbar {
+  display: none !important;
+}
+
 .font {
   font-family: "Jersey 10", sans-serif;
   font-weight: 400;

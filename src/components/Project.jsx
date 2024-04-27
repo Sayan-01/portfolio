@@ -3,7 +3,7 @@ import Section from "./Section";
 import Text from "./Text";
 import { Gradient } from "./design/Services";
 import Button from "./Button";
-import { airbnb1, check2, grid, loading1, reactShoe } from "../assets";
+import { airbnb1, check2, grid, loading1, project3, reactShoe } from "../assets";
 import { roadmap1, roadmap2, roadmap3 } from "../assets";
 
 
@@ -13,7 +13,7 @@ const Project = () => {
       id: "0",
       title: "Airbnb Clone Full Stack",
       text: "This is a full stack Airbnb clone based on MERN stack. In this project user can create or delete his/her own listing, giving reviews, and use filter and search v of betterresult. Moreover, the webapp has the facility of Log in, Sign in and Logout. And complete CRUD operation can be done on the website.",
-      date: "May 2023",
+      date: "Dec 2023",
       status: "done",
       imageUrl: airbnb1,
       colorful: true,
@@ -24,7 +24,7 @@ const Project = () => {
       id: "1",
       title: "React Animated Webpage",
       text: "I convert the Nike landing page into a animated mordern landing page. Here I used React Js and Framer as base framework and animation tool.On this webpage, when we click on any of the three shoes below, we can see that shoe is scaled with smooth rotation.",
-      date: "May 2023",
+      date: "Jan 2024",
       status: "done",
       imageUrl: reactShoe,
       colorful: false,
@@ -32,12 +32,14 @@ const Project = () => {
     },
     {
       id: "2",
-      title: "Airbnb Clone",
-      text: "loremsdcs dds  ewsd sdbsvv guweoh aaoye ggh hry ydhd fhyr y hdfdkd iugd fuigdj hvboavhj vvgvv v vg d t sdggdgsd sdvgsyy svvy fwuk duyd cug d gsdgv wegv",
-      date: "May 2023",
+      title: "Portfolio Website",
+      text: "This is my portfolio website, this website is built with React, React Router DOM, GSP etc. In this website you can see some parallax effect and in this project I use modern react features like reusable component and real dom virtual dom concept as well. The website has been developed to be fully responsive and compatible with mobile phones and tablets.",
+      date: "May 2024",
       status: "process",
-      imageUrl: roadmap3,
+      imageUrl: project3,
       colorful: false,
+      github: "https://github.com/Sayan-01/",
+      link: "https://https://sayan-01.vercel.app/",
     },
     {
       id: "3",
@@ -91,7 +93,7 @@ const Project = () => {
                     </div>
                     <div className="flex items-center justify-center relative top-0">
                       <div className=" overflow-hidden w-full md:my-5 my-7 md:rounded-2xl rounded-xl bg-slate-300 aspect-[16/10.5]">
-                        <img
+                        <img className=" object-fill h-full"
                           src={item.imageUrl}
                           alt="airbnb-1"
                         />
@@ -115,7 +117,7 @@ const Project = () => {
                     </div>
                     <h4 className="h4 mb-4">{item.title}</h4>
                     <div className="">
-                      <p className=" body-2 text-n-4">{item.text}</p>
+                      <p className=" cursor-pointer body-2 text-n-4">{item.text}</p>
                     </div>
                   </div>
                 </div>

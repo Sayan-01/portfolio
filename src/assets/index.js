@@ -32,6 +32,7 @@ import undone from "./roadmap/undone.svg";
 
 import airbnb1 from './projects/airbnb-1.png'
 import reactShoe from './projects/reactShoe.png'
+import project3 from './projects/project3.png'
 
 
 import lines from "./pricing/lines.svg";
@@ -56,6 +57,7 @@ export {
 
   airbnb1,
   reactShoe,
+  project3,
 
   lines,
   stars, 
