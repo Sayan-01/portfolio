@@ -22,13 +22,14 @@ const Project = () => {
     },
     {
       id: "1",
-      title: "React Animated Webpage",
+      title: "React Animated Landingpage",
       text: "I convert the Nike landing page into a animated mordern landing page. Here I used React Js and Framer as base framework and animation tool.On this webpage, when we click on any of the three shoes below, we can see that shoe is scaled with smooth rotation.",
       date: "Jan 2024",
       status: "done",
       imageUrl: reactShoe,
       colorful: false,
       github: "https://github.com/Sayan-01",
+      link: "https://nike-animated-landingpage.vercel.app/",
     },
     {
       id: "2",
@@ -39,7 +40,7 @@ const Project = () => {
       imageUrl: project3,
       colorful: false,
       github: "https://github.com/Sayan-01/",
-      link: "https://https://sayan-01.vercel.app/",
+      link: "https://sayan-01.vercel.app/",
     },
     {
       id: "3",
