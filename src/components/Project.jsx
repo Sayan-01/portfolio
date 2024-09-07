@@ -3,8 +3,7 @@ import Section from "./Section";
 import Text from "./Text";
 import { Gradient } from "./design/Services";
 import Button from "./Button";
-import { airbnb1, check2, grid, loading1, project3, reactShoe } from "../assets";
-import { roadmap1, roadmap2, roadmap3 } from "../assets";
+import { airbnb1, azeorex, check2, grid, loading1, project3, reactShoe } from "../assets";
 
 
 const Project = () => {
@@ -44,19 +43,20 @@ const Project = () => {
     },
     {
       id: "3",
-      title: "Airbnb Clone",
-      text: "loremsdcs dds  ewsd sdbsvv guweoh aaoye ggh hry ydhd fhyr y hdfdkd iugd fuigdj hvboavhj vvgvv v vg d t sdggdgsd sdvgsyy svvy fwuk duyd cug d gsdgv wegv",
+      title: "Azeorex Startup",
+      text: "This is my own Startup AZEOREX. This is a advance NEXT.js website, here I use latest cutting edge technologys. Azeorex has a huge collection of premium templates and components. We also create complete mern stack & nextjs website. He you explore the diverse range of offerings that elevate Replex's value and cater to your specific needs. ",
       date: "May 2023",
       status: "done",
-      imageUrl: roadmap1,
+      imageUrl: azeorex,
       colorful: false,
+      link: "https://azeorex.vercel.app/",
     },
   ];
   return (
     <Section id={'projects'} customPadding={"md:pb-28 pb-16 pt-20"}>
       <div className="container md:pb-0 lg:pb">
         <div>
-          <Text className={"md:mb-5 mb-[16px] md:mt-4 mt-16 w-full"}>" Realize Your Dream Website "</Text>
+          <Text className={"md:mb-5 mb-[16px] md:mt-4 mt-16 w-full"}> Realize Your Dream Website </Text>
           <h2 className="h2 w-full md:text-center md:mb-20 mb-10 ">List Of Projects I Have Created.</h2>
         </div>
         <div className="relative grid gap-6 md:grid-cols-2 md:gap-4 md:pb-[7rem]">
@@ -127,7 +127,7 @@ const Project = () => {
           })}
           <Gradient className={"top-0 -left-[10rem]"} />
 
-          <Gradient className={"md:top-[60rem] top-[70rem] right-10"} />
+          <Gradient className={"md:top-[60rem] top-[70rem] -left-[10rem]"} />
         </div>
         <div className="flex items-center justify-center mt-16 md:mt15 xl:mt-20 w-full">
           <Button className={"font-code text-xs font-bold uppercase"}>Our Roadmap</Button>

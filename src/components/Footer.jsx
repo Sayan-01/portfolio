@@ -1,6 +1,5 @@
-import React from "react";
-import Section from './Section'
-import { twitter, discordBlack, instagram, telegram, facebook, linkedin, github } from "../assets";
+import { facebook, github, instagram, linkedin } from "../assets";
+import Section from './Section';
 const Footer = () => {
   const socials = [
     // {

@@ -33,6 +33,7 @@ import undone from "./roadmap/undone.svg";
 import airbnb1 from './projects/airbnb-1.png'
 import reactShoe from './projects/reactShoe.png'
 import project3 from './projects/project3.png'
+import azeorex from "./projects/azeorex.png"
 
 
 import lines from "./pricing/lines.svg";
@@ -91,5 +92,6 @@ export {
   twitter,
   linkedin,
   github,
-  skillRing
+  skillRing,
+  azeorex
 };
